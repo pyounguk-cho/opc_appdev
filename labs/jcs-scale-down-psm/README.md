@@ -79,7 +79,7 @@ Open a terminal, change to directory or make sure you are in directory `/u01` an
 	You should consider upgrading via the 'pip install --upgrade pip' command.
 	[oracle@localhost u01]$
 
-####Configuring the Command Line Interface####
+#### Configuring the Command Line Interface ####
 Prior to running CLI commands, configure your connection to the Oracle cloud.
 
 Open a terminal and run the `setup` command. When prompted, enter your cloud username, password, region, and identity domain. You may want to enter **json** for output format if you'd like to see details in the response. For example:
