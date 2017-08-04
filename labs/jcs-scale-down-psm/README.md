@@ -24,6 +24,7 @@ For more information about PSM see the [documentation](https://docs.oracle.com/c
 
 ### Steps ###
 #### Download the latest version of command line tool ####
+You can download CLI package using cURL over REST. You can also download it from JCS console directly. We recommend the latter, but both methods are presented below.
 First identify your REST API server name. If you log in to your Oracle cloud account with a US data center, use **psm.us.oraclecloud.com** otherwise, use **psm.europe.oraclecloud.com**.
 
 Use cURL to send a request. The format is:
@@ -263,7 +264,7 @@ View the available parameters for a specific command along with examples.
 	
 	[oracle@localhost Desktop]$ 
 
-####Use the Command Line Interface to Scale Down a JCS Node####
+#### Use the Command Line Interface to Scale Down a JCS Node ####
 First list the Java Cloud Services in your configured identity domain:
 
 	[oracle@localhost Desktop]$ psm jcs services
@@ -402,7 +403,7 @@ You may see different output depending on the JCS service instances you may have
 
 Leave this terminal open.
 
-####Monitor Scale-Down Operation on the Java Cloud Service Console####
+#### Monitor Scale-Down Operation on the Java Cloud Service Console ####
 Navigate to the Oracle Java Cloud Service Console.[Sign in](../common/sign.in.to.oracle.cloud.md) to [https://cloud.oracle.com/sign-in](https://cloud.oracle.com/sign-in). On the dashboard open the Java Cloud Service Console.
 
 ![](images/00.png)
