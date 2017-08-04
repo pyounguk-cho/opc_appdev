@@ -18,7 +18,7 @@ For more information about PSM see the [documentation](https://docs.oracle.com/c
 ### Prerequisites ###
 
 - Running Java Cloud Service with out-of-the-box [sample application](https://docs.oracle.com/en/cloud/paas/java-cloud/jscug/sample-application-deployed-oracle-java-cloud-service-instance.html) deployed
-- which has 2 or more nodes that may or may not be fronted by JCS Load Balancer
+- which has 1 or more nodes with 2 or more OCPUs that may or may not be fronted by JCS Load Balancer
 - [cURL command-line tool](http://curl.haxx.se/download.html). Usually cURL is already included in most of the Linux distributions and easy to install to Windows. You can use other tool to invoke REST API to download the latest version of the tool. (To install cURL is not scope of this documentation.)
 - Python 3.3 or later. (To install Pyhton is not scope of this documentation.)
 
